@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Социальная сеть</title>
+        <link rel="stylesheet" href="Style.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+    </head>
+    <body>
+        <div class="top-row">
+                <a href=""><div class="settings"></div></a>
+                <div class="logo-block"></div>
+                <ul>
+                    <li><a href="">My profile</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">Messenger</a></li>
+                    <li><a href="">Friends</a></li>
+                    <li><a href="">Communities</a></li>
+                    <li><a href="">Photos</a></li>
+                    <li><a href="">Videos</a></li>
+                    <li><a href="">Files</a></li>
+                </ul>
+            </div> 
+        <div class="wrapper">
+            <div class="row clearfix">
+                <div class="col-1-3">
+                    <img class="avatar" src="https://www.bsau.ru/upload/iblock/9c0/2_9yLm2yWUoMcZlywdOcfKAw.png" alt="Аватарка">
+                    <div class="row clearfix">
+                    <div class="col-1-2">
+                        <a href=""><div class="interaction"><p>Message</p></div></a>
+                    </div>
+                    <div class="col-1-2">
+                        <a href=""><div class="interaction"><p>To friend</p></div></a>
+                    </div>
+                    </div>
+                </div> 
+                <div class="col-2-3">
+                    <div class="profile">
+                        <div class="heading">Name Surname</div>
+                        <div class="info">
+                            <p>Дата рождения: 01.01.2001</p>
+                            <p>Город: Санкт-Петербург</p>
+                            <p>Место учёбы: Университет ИТМО</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2-3">
+                    <div class="profile">
+                        <div class="heading">Photos</div>
+                        <div class="row clearfix">                        
+                            <div class="col-photo">
+                                <img class="photo" src="https://www.bsau.ru/upload/iblock/9c0/2_9yLm2yWUoMcZlywdOcfKAw.png" alt="Фото 1">
+                            </div>
+                            <div class="col-photo">
+                                <img class="photo" src="https://www.bsau.ru/upload/iblock/9c0/2_9yLm2yWUoMcZlywdOcfKAw.png" alt="Фото 2">                                
+                            </div>
+                            <div class="col-photo">
+                                <img class="photo" src="https://www.bsau.ru/upload/iblock/9c0/2_9yLm2yWUoMcZlywdOcfKAw.png" alt="Фото 3">                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="content">
+                        <div class="heading">Posts</div>
+                        <div class="row clearfix">
+                            <div class="col-1">                            
+                                <img class="photo" src="https://www.bsau.ru/upload/iblock/9c0/2_9yLm2yWUoMcZlywdOcfKAw.png" alt="Пост 1">                                
+                            </div>
+                        </div>
+                        <div class="row clearfix">
+                            <div class="col-icon">
+                                <a href=""><img class="icon" src="https://cdn-icons.flaticon.com/png/512/2961/premium/2961957.png?token=exp=1642267442~hmac=5cf451e76022fb3a6a30b4ccf36fc7ed" alt="Like"></a>
+                            </div>
+                            <div class="col-icon">
+                                <a href=""><img class="icon" src="https://cdn-icons-png.flaticon.com/512/2462/2462719.png" alt="Comment"></a>
+                            </div>
+                            <div class="col-icon">
+                                <a href=""><img class="icon" src="https://cdn-icons.flaticon.com/png/512/2734/premium/2734827.png?token=exp=1642267537~hmac=93f710e4aac6ac9ab99d45a230afdaf4" alt="Repost"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <script>
+            $('.logo-block').on('click', function(){
+              $('ul').toggleClass('active');
+            });
+        </script>
+    </body>
+</html>
